@@ -19,10 +19,10 @@ locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
 title                    : "Site Title"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+subtitle                 : "Exploring Insights, Ideas, and Passions"
+name                     : "Alexander Pries"
+description              : "Welcome to my personal website and blog—a space where professional expertise meets personal reflection. Here, I showcase my work and ideas as a political scientist, sociologist, and data scientist, delving into topics such as political sociology, conflict studies, inequality, electoral behavior, cleavage identities, and quantitative methodologies, including machine learning, psychometrics, and database development. Alongside this professional portfolio, I also share personal essays, life lessons, and musings on relationships, culture, sports, and style. This site serves as a hub for both my career and my passions, offering a blend of academic rigor and personal storytelling. Explore, connect, and enjoy!"
+url                      : "https://alexanderpries.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -113,13 +113,13 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Alexander Pries"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an **amazing** person."
   location         : "Somewhere"
   email            :
   links:
-    - label: "Email"
+    - label: "email"
       icon: "fas fa-fw fa-envelope-square"
       # url: "mailto:your.name@email.com"
     - label: "Website"
