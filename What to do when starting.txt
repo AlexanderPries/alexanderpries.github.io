@@ -1,0 +1,22 @@
+----------------------------------------------
+What to Do If Starting Fresh After a Restart
+---------------------------------------------
+
+Open the project folder in VS Code.
+
+Start the Jekyll server:
+
+bash:
+
+cd path/to/project
+bundle exec jekyll serve
+
+
+Make changes as needed, save them, and preview locally.
+Push changes to GitHub once you’re satisfied:
+
+bash:
+
+git add .
+git commit -m "Description of changes"
+git push origin main
