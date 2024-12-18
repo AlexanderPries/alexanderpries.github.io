@@ -1,0 +1,71 @@
+// Custom Skin for Dark Grey Tones with Violet Accent Colors
+
+// Primary Color Palette
+$primary-color: #6a0dad; // Violet Accent
+$primary-hover-color: #550d8a; // Darker Violet
+
+// Grayscale Palette
+$text-color: #f8f9fa; // Light Grey for text
+$background-color: #333333; // Dark Grey for background
+$secondary-text-color: #cccccc; // Medium Grey for secondary text
+$border-color: #666666; // Medium Grey for borders
+
+// Link Colors
+$link-color: $primary-color;
+$link-hover-color: $primary-hover-color;
+
+// Button Colors
+$button-background-color: $background-color; // Matches the dark background
+$button-text-color: $text-color; // Light text
+$button-hover-background-color: $primary-hover-color;
+$button-hover-text-color: $text-color;
+
+// Header/Footer
+$header-background-color: $background-color; // Dark Grey
+$header-text-color: $text-color; // Light Grey text
+$footer-background-color: $background-color; // Dark Grey
+$footer-text-color: $text-color; // Light Grey text
+
+// Customizations
+$highlight-color: $primary-color; // Violet highlight for emphasis
+$highlight-background-color: #2a2a2a; // Slightly lighter dark grey for highlights
+
+// Typography
+$h1-color: $text-color;
+$h2-color: $secondary-text-color;
+$h3-color: $text-color;
+
+// Forms
+$form-border-color: $border-color;
+$form-focus-border-color: $primary-color;
+$form-text-color: $text-color;
+$form-background-color: $background-color; // Matches the dark theme
+
+.layout--archive {
+  display: block; /* Full-width layout for the homepage */
+}
+
+.author-home {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.author-avatar {
+  border-radius: 50%;
+  max-width: 150px;
+  margin: 20px auto;
+}
+
+.author-links .btn {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: $primary-color;
+  color: $text-color;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.author-links .btn:hover {
+  background-color: $primary-hover-color;
+}

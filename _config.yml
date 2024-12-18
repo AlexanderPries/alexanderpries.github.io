@@ -1,20 +1,20 @@
 # Welcome to Jekyll!
 # General settings
 
-minimal_mistakes_skin: "air"
+minimal_mistakes_skin: "my-custom-skin"
 
 # Site settings
 locale: "en-US"
-title: "Alexander Pries - Researcher and Data Scientist"
-title_separator: "-"
-subtitle: "Researcher in Social Sciences | Data Scientist & Survey Methodologist"
-name: "Alexander Pries"
-description: "Welcome to my personal website and blog—a space where professional expertise meets personal reflection. ..."
+title: ""
+title_separator: ""
+subtitle: ""
+name: ""
+description: ""
 url: "https://alexanderpries.github.io"
 baseurl: ""
 repository: "AlexanderPries/alexanderpries.github.io"
-teaser: "/assets/images/teaser.png"
-logo: "/assets/images/icon.png"
+teaser: ""
+logo: ""
 masthead_title: ""
 breadcrumbs: true
 words_per_minute: 200
@@ -52,30 +52,31 @@ social:
 author:
   name: "Alexander Pries"
   avatar: "/assets/images/bio_picture.jpg"
-  bio: "Researcher & Data Scientist | Social Sciences, Social Psychology, Big Data and Survey insights"
-  location: "Im echten Norden"
-  email: "mailto:alexanderpries@web.de"
+  bio: "Hi, I'm Alexander, a researcher and data scientist passionate about exploring social sciences, big data, and survey methodology."
+  highlights:
+    - "Specialized in data analysis and survey design."
+    - "Experienced in leveraging big data for actionable insights."
+    - "A keen interest in the intersection of social psychology and technology."
+  location: "Northern Germany"
+  email: "alexanderpries@web.de"
   links:
-    - label: "email"
-      icon: "fas fa-fw fa-envelope-square"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
       url: "mailto:alexanderpries@web.de"
     - label: "LinkedIn"
-      icon: "fas fa-fw fa-link"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/alexander-pries-071639279/"
     - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
+      icon: "fab fa-fw fa-twitter"
       url: "https://x.com/alexander_prs"
-    - label: "BlueSky"
-      icon: "fas fa-fw fa-link"
-      url: "https://bsky.app/profile/alexprs.bsky.social"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/alexprs23/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/AlexanderPries"
 
 # Footer
 footer:
   links:
-    - label: "email"
+    - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:alexanderpries@web.de"
     - label: "LinkedIn"
@@ -98,6 +99,15 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+
+# Collections
+collections:
+  professional:
+    output: true
+    permalink: /professional/:path/
+  personal:
+    output: true
+    permalink: /personal/:path/
 
 # Defaults
 defaults:

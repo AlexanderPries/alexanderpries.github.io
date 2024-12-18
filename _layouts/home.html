@@ -2,19 +2,42 @@
 layout: archive
 ---
 
-{{ content }}
-
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
-
-{% if paginator %}
-  {% assign posts = paginator.posts %}
-{% else %}
-  {% assign posts = site.posts %}
-{% endif %}
-
-{% assign entries_layout = page.entries_layout | default: 'list' %}
-<div class="entries-{{ entries_layout }}">
-  {% include documents-collection.html entries=posts type=entries_layout %}
+<div class="author-home">
+  <div class="container">
+    <h1>About Me</h1>
+    <img src="{{ site.author.avatar }}" alt="{{ site.author.name }}" class="author-avatar">
+    <p>{{ site.author.bio }}</p>
+    <div class="author-links">
+      <a href="{{ site.baseurl }}/professional/" class="btn">Professional Passions</a>
+      <a href="{{ site.baseurl }}/personal/" class="btn">Personal Passions</a>
+    </div>
+  </div>
 </div>
 
-{% include paginator.html %}
+<style>
+  .author-home {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f8f9fa;
+  }
+  .author-avatar {
+    border-radius: 50%;
+    max-width: 150px;
+    margin: 20px auto;
+  }
+  .author-links {
+    margin-top: 20px;
+  }
+  .author-links .btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #6a0dad;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  .author-links .btn:hover {
+    background-color: #550d8a;
+  }
+</style>
